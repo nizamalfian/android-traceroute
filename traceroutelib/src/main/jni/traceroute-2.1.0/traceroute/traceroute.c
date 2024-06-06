@@ -31,6 +31,8 @@
 /*  XXX: Remove this when things will be defined properly in netinet/ ...  */
 //#include "flowlabel.h"
 
+#include <string.h>
+
 #include <libsupp/clif.h>
 #include <include/version.h>
 #include "traceroute.h"
@@ -65,11 +67,11 @@
 #endif
 
 
-#define MAX_HOPS	255
+#define MAX_HOPS	100
 #define MAX_PROBES	10
 #define MAX_GATEWAYS_4	8
 #define MAX_GATEWAYS_6	127
-#define DEF_HOPS	30
+#define DEF_HOPS	15
 #define DEF_SIM_PROBES	16	/*  including several hops   */
 #define DEF_NUM_PROBES	3
 #define DEF_WAIT_SECS	5.0

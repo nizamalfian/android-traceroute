@@ -12,6 +12,8 @@
 #include <poll.h>
 //#include <netinet/icmp6.h>
 
+#include <string.h>
+
 #include <libsupp/icmp6.h>
     
 #include <netinet/ip_icmp.h>

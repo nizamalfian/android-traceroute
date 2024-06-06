@@ -50,6 +50,8 @@ android {
             ignoreExitValue true
         }
     }
+
+    ndkVersion '27.0.11718014'
 }
 
 task sourcesJar(type: Jar) {

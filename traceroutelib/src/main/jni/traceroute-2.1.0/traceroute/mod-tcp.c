@@ -23,6 +23,7 @@
 #include <libsupp/tcp.h>
 //#include <linux/tcp.h>
 
+#include <string.h>
 
 #include "traceroute.h"
 
